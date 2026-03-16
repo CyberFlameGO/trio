@@ -25,7 +25,7 @@ click==8.0.1
     # via black
 coverage==5.5
     # via pytest-cov
-cryptography==3.4.8
+cryptography==46.0.0
     # via
     #   pyopenssl
     #   trustme
@@ -96,7 +96,7 @@ pygments==2.9.0
     # via ipython
 pylint==2.9.6
     # via -r test-requirements.in
-pyopenssl==20.0.1
+pyopenssl==26.0.0
     # via -r test-requirements.in
 pyparsing==2.4.7
     # via packaging
@@ -108,8 +108,6 @@ pytest-cov==2.12.1
     # via -r test-requirements.in
 regex==2021.8.28
     # via black
-six==1.16.0
-    # via pyopenssl
 sniffio==1.2.0
     # via -r test-requirements.in
 sortedcontainers==2.4.0
@@ -130,11 +128,13 @@ trustme==0.9.0
     # via -r test-requirements.in
 typed-ast==1.4.3 ; implementation_name == "cpython"
     # via -r test-requirements.in
-typing-extensions==3.10.0.2 ; implementation_name == "cpython"
+typing-extensions==4.15.0 ; implementation_name == "cpython"
     # via
     #   -r test-requirements.in
     #   black
+    #   cryptography
     #   mypy
+    #   pyopenssl
 wcwidth==0.2.5
     # via prompt-toolkit
 wrapt==1.12.1
