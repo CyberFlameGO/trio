@@ -19,13 +19,13 @@ backcall==0.2.0
     # via ipython
 black==21.9b0 ; implementation_name == "cpython"
     # via -r test-requirements.in
-cffi==1.14.6
+cffi==2.0.0
     # via cryptography
 click==8.0.1
     # via black
 coverage==5.5
     # via pytest-cov
-cryptography==3.4.8
+cryptography==46.0.6
     # via
     #   pyopenssl
     #   trustme
@@ -130,10 +130,11 @@ trustme==0.9.0
     # via -r test-requirements.in
 typed-ast==1.4.3 ; implementation_name == "cpython"
     # via -r test-requirements.in
-typing-extensions==3.10.0.2 ; implementation_name == "cpython"
+typing-extensions==4.15.0 ; implementation_name == "cpython"
     # via
     #   -r test-requirements.in
     #   black
+    #   cryptography
     #   mypy
 wcwidth==0.2.5
     # via prompt-toolkit
